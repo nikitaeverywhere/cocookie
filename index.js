@@ -57,7 +57,7 @@ CookieCtrl.prototype.get = function () {
     const cookie = document.cookie;
     let   res;
     cookieSearchRegEx.lastIndex = 0;
-    while (res = cookieSearchRegEx.exec(cookie))
+    while ((res = cookieSearchRegEx.exec(cookie)) !== null)
         if (res[1] === this.name)
             return decodeURIComponent(res[2]);
     return undefined;
@@ -107,7 +107,7 @@ export const cookies = () => {
           list = [];
     let   res;
     cookieSearchRegEx.lastIndex = 0;
-    while (res = cookieSearchRegEx.exec(cookie))
+    while ((res = cookieSearchRegEx.exec(cookie)) !== null)
         list.push(res[1]);
     return list;
 };

@@ -69,8 +69,8 @@ Install CoCookie as a npm dependency. Use this package with any module bundler l
 [Webpack](https://webpack.github.io) until ES6 modules standard will be implemented natively.
 
 If your module bundler cannot resolve ES6 code, use `import cookie from "cocookie/umd.js";`. For
-usage from browser directly use the script tag:
+usage from browser directly use the script tag (or download this script):
 
 ```html
-<script type="text/javascript" src="https://raw.githubusercontent.com/ZitRos/cocookie/master/umd.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/ZitRos/cocookie/master/umd.js"></script>
 ```

@@ -4,3 +4,5 @@
 *.iml
 webpack.config.js
 node_modules/
+.eslintrc.js
+test.js
