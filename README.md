@@ -4,6 +4,7 @@
 
 [![npm](https://img.shields.io/npm/v/cocookie.svg)](https://www.npmjs.com/package/cocookie)
 [![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen.svg)](http://npm.anvaka.com/#/view/2d/cocookie)
+[![Build Status](https://travis-ci.org/ZitRos/cocookie.svg?branch=master)](https://travis-ci.org/ZitRos/cocookie/)
 [![License](https://img.shields.io/github/license/zitros/cocookie.svg)](LICENSE)
 
 [CoCookie](https://www.npmjs.com/package/cocookie) is a minimalistic accurate JavaScript ES6 package 
