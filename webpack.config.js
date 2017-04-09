@@ -1,13 +1,13 @@
 module.exports = {
-    entry: "index.js",
+    entry: "./index.js",
     output: {
-        path: "umd.js",
+        filename: "./umd.js",
         libraryTarget: "umd"
     },
     module: {
         loaders: [
             {
-                test: /\.jsx?$/,
+                test: /\.js$/,
                 loader: "babel-loader",
                 query: {
                     presets: ["es2015"]

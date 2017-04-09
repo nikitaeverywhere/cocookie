@@ -6,8 +6,8 @@
 [![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen.svg)](http://npm.anvaka.com/#/view/2d/cocookie)
 [![License](https://img.shields.io/github/license/zitros/cocookie.svg)](LICENSE)
 
-[CoCookie](https://www.npmjs.com/package/cocookie) is a minimalistic accurate JavaScript ES6 package that provides a convenient interface to
-work with cookies.
+[CoCookie](https://www.npmjs.com/package/cocookie) is a minimalistic accurate JavaScript ES6 package 
+that provides a convenient interface to work with cookies.
 
 The API is as simple as possible. The [documented code](index.js) is clean and transparent. See the
 usage in examples below.
@@ -61,9 +61,16 @@ let object = JSON.stringify(cookie("key").get());
 Installation
 ------------
 
+```bash
+npm install --save-dev cocookie
+```
+
 Install CoCookie as a npm dependency. Use this package with any module bundler like 
 [Webpack](https://webpack.github.io) until ES6 modules standard will be implemented natively.
 
-```bash
-npm install --save-dev cocookie
+If your module bundler cannot resolve ES6 code, use `import cookie from "cocookie/umd.js";`. For
+usage from browser directly use the script tag:
+
+```html
+<script type="text/javascript" src="https://github.com/ZitRos/cocookie/blob/master/umd.js"></script>
 ```
