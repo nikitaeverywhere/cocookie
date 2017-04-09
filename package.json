@@ -1,0 +1,30 @@
+{
+  "name": "cocookie",
+  "version": "0.1.0",
+  "description": "A minimalistic accurate JavaScript ES6 package to work with cookies",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZitRos/cocookie.git"
+  },
+  "keywords": [
+    "cookie",
+    "cookies",
+    "es6",
+    "simple",
+    "interface",
+    "javascript",
+    "minimalistic",
+    "accurate"
+  ],
+  "author": "ZitRo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZitRos/cocookie/issues"
+  },
+  "homepage": "https://github.com/ZitRos/cocookie#readme"
+}
