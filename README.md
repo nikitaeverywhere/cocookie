@@ -72,5 +72,5 @@ If your module bundler cannot resolve ES6 code, use `import cookie from "cocooki
 usage from browser directly use the script tag:
 
 ```html
-<script type="text/javascript" src="https://github.com/ZitRos/cocookie/blob/master/umd.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/ZitRos/cocookie/master/umd.js"></script>
 ```
