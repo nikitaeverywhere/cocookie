@@ -97,11 +97,7 @@ module.exports = {
             }
         ],
         "line-comment-position": "off",
-        "linebreak-style": [
-            "error",
-            "windows",
-            "unix"
-        ],
+        "linebreak-style": "off",
         "lines-around-comment": "error",
         "lines-around-directive": "error",
         "max-depth": "error",
