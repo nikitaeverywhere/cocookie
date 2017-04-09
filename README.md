@@ -1,12 +1,12 @@
 # CoCookie: Easy Cookies Interface
 
-<img style="float: right;" src="https://cloud.githubusercontent.com/assets/4989256/24839621/d45157d4-1d66-11e7-8011-409a902ea69c.png">
+<img align="left" height="164px" src="https://cloud.githubusercontent.com/assets/4989256/24839621/d45157d4-1d66-11e7-8011-409a902ea69c.png">
 
 [![npm](https://img.shields.io/npm/v/cocookie.svg)](https://www.npmjs.com/package/cocookie)
 [![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen.svg)](http://npm.anvaka.com/#/view/2d/cocookie)
 [![License](https://img.shields.io/github/license/zitros/cocookie.svg)](LICENSE)
 
-CoCookie is a minimalistic accurate JavaScript ES6 package that provides a convenient interface to
+[CoCookie](https://www.npmjs.com/package/cocookie) is a minimalistic accurate JavaScript ES6 package that provides a convenient interface to
 work with cookies.
 
 The API is as simple as possible. The [documented code](index.js) is clean and transparent. See the
