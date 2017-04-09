@@ -1,6 +1,6 @@
 {
   "name": "cocookie",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "A minimalistic accurate JavaScript ES6 package to work with cookies",
   "main": "index.js",
   "scripts": {
